@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiyu Jiang's Home Page</title>
+    <link rel="icon" href="./assets/avatar.128.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/sytle.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header-block block">
+            <div class="avatar">
+                <img src="./assets/images/avatar.128.png" alt="Avatar" class="avatar">
+            </div>
+
+            <header>
+                <h1>江洗宇</h1>
+                <p>Xiyu Jiang</p>
+            </header>
+
+            <p class="intro">
+                I am currently pursuing a degree in electrical engineering at
+                National Taiwan University.</br>
+                My research interests include data privacy, security,
+                and the Internet of Things.
+            </p>
+        </div>
+
+        <div class="links-block block">
+            <div class="link-block dark-block">
+                <a href="./about.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-address-card"></i>
+                        <!-- <img src="./assets/images/avatar.default.jpg"> -->
+                    </div>
+                    <div class="text">
+                        <p class="main">About Me</p>
+                        <p class="sub">Know me more!</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="link-block dark-block">
+                <a href="./chat.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div class="text">
+                        <p class="main">Message Board</p>
+                        <p class="sub">Leave some comment here!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="blank-block block"></div>
+
+        <div class="text-block block">
+            <p>這個頁面被訪問了 <span id="counter">讀取中...</span> 次</p>
+        </div>
+
+        <div class="blank-block block"></div>
+
+        <div class="text-block block">
+            <p class="small-text">
+                這個 Counter 是確實工作的。</br>
+                它由 CloudFlare Worker 執行，由 CloudFlare KV 存儲資料。</br>
+                其程式碼是由我本人撰寫，</br>
+                原始碼在此：
+                <a href="https://github.com/undecV/worker-simple-counter">
+                    undecV/worker-simple-counter</a> (WTFPL)</br>
+                網頁模板也是由我本人傾心製作，手工雕鑿而成，</br>
+                模板在此：
+                <a href="https://github.com/undecV/Links">undecV/Links</a> (MIT)
+            </p>
+        </div>
+
+        <div class="blank-block block"></div>
+
+        <div class="text-block block">
+            <p class="small-text">Webpage design by <a href="https://github.com/undecv">undecV</a>.</br>
+                Background photo by: Ian Valerio,
+                <a
+                    href="https://unsplash.com/photos/aerial-view-photography-of-road-between-highrise-building-CAFq0pv9HjY">Unsplash</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #777;
+    // background: url("../images/ian-valerio-CAFq0pv9HjY-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ccc;
+}
+
+a {
+    color: #eee;
+}
+
+div.main-container {
+    background: #0003;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+div.block {
+    margin-bottom: 20px;
+}
+
+div.blank-block {
+    height: 5px;
+}
+
+div.header-block {
+    // display: flex;
+    margin-top: 10px;
+    justify-content: center;
+
+    div.avatar {
+        margin-bottom: 20px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+
+        i {
+            color: #fff;
+            font-size: 80px;
+            text-align: center;
+        }
+    }
+
+    header {
+        color: #eee;
+
+        h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+    }
+
+    p.intro {
+        font-size: .9em;
+        color: #ccc;
+    }
+}
+
+div.text-block {
+    color: #eee;
+    font-size: 1em;
+}
+
+p {
+    margin: 0;
+}
+
+p.small-text {
+    font-size: .8em;
+}
+
+p.super-small-text {
+    font-size: .6em;
+    margin: 0;
+}
+
+div.dark-block {
+    background-color: #0003;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0006;
+        box-shadow: 0 0 10px #0006;
+    }
+}
+
+div.link-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    font-size: 16px;
+    min-height: 70px;
+
+    a {
+        width: 100%;
+        height: 100%;
+        padding: 15px 20px 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-decoration: none;
+    }
+
+    div.icon {
+        width: 60px;
+        margin-right: 10px;
+
+        i {
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        img {
+            width: 40px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+
+    div.text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        p.main {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        p.sub {
+            font-size: 1em;
+            margin: 0;
+        }
+    }
+}
+
+.image-block {
+
+    a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
